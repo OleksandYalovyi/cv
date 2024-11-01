@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        nunito: ["var(--font-nunito-sans)"],
+        nunitoItalic: ["var(--font-nunito-sans-italic)"],
+        geist: ["var(--font-geist-sans)"],
+        geistMono: ["var(--font-geist-mono)"],
+      },
+      backgroundColor: {
+        main: "rgb(68, 71, 255)",
       },
     },
   },
